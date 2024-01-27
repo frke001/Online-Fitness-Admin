@@ -1,0 +1,47 @@
+.content{
+	padding: 30px;
+}
+.btn{
+	border-radius: 15px !important;
+}
+#users-tab.active, #users-tab:hover{
+	background-color: #8080ff!important;
+	color: white!important;
+	cursor: pointer!important;
+}
+#users-tab{
+	color: white;
+}
+#advisors-tab.active, #advisors-tab:hover{
+	background-color: #8080ff!important;
+	color: white!important;
+	cursor: pointer!important;
+}
+#advisors-tab{
+	color: white;
+}
+.tab-pane{
+	padding: 20px !important;
+}
+.title-users{
+	color: white;
+}
+tr{
+	font-weight: 500;
+
+}
+.t-h{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 3px;
+}
+@media screen and (max-width: 600px) {
+	.head{
+		display: flex !important;
+		flex-direction: column !important;
+		align-items: center !important;
+	}
+}
+
+
